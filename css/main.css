@@ -1,0 +1,147 @@
+/**********CUSTOM HEADINGS FOR POOERTFOLIO SERVICES AND ABOUT SECTION******/
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300');
+  h3{
+    font-family: 'Roboto mono', serif;
+    font-size: 4vw;
+    text-align: center;
+    text-decoration: overline underline  solid;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+body, div, .row{
+    margin:0;
+}
+li {
+    font-family:Impact, Charcoal, sans-serif;
+    opacity:1;
+    color: red;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+button {
+    font-size: 18px;
+     border:0;
+    border-radius: 15px;
+    padding:10px 15px;
+    transition:ease-in-out;
+    transition:0.4s;
+}
+button:active {
+    transform: scale(0.9,0.9);
+}
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+/**********CUSTOM HEADINGS FOR PORTFOLIO SERVICES AND ABOUT SECTION******/
+/******************NAV BAR SECTION ****************/
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px 10px;
+    text-align: right;
+    }
+
+li {
+    display:inline;
+}
+li a{
+    text-decoration: none;
+    text-align: center;
+    color:#912cee;
+    border:solid 3px #912cee;
+    border-radius: 40px 0px;
+}
+
+#logo {
+    padding-left: 5%; 
+    width:10%;
+    float:left;
+ }
+#logo img {
+    height:60px;
+}
+#navBar {
+    padding-right: 5%;
+}
+#navBar li a {
+    padding:15px 30px;
+    transition:ease-in-out;
+    transition:0.4s;
+}
+#navBar a:hover {
+    background:#912cee;
+    color: #fff;
+}
+
+.navigation {
+    width:100%;
+    padding-top:20px;
+    height:60px;
+    background:#fff;
+    padding-bottom:15px;
+}
+
+.navBars{
+    float:right;
+    width:80%;
+ }
+
+.navigation:after {
+    clear:both;
+}
+
+#menu {
+    display:none;
+    float:right;
+}
+
+
+@media only screen and (max-width: 800px) {
+ 
+   /*************END OF SMALL SCREENS NAVIGATION SECTION*************/
+    li a{
+        border:none;
+        border-radius: 0;
+    }
+    #menu-bar div {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        }
+    #menu-bar {
+        border-radius: 1px;
+        padding:5px 20px;
+        float:right;
+    }
+    #menu-bar:after {
+        clear: both;
+    }
+    #navBar {
+        position: fixed;
+        top:20px;
+        right:20px;
+        display:none;
+        background-color:#f3f3f3;
+        border-radius:10px;
+        z-index: 10;
+    }
+    #navBar li {
+    display:block;
+    margin:20px 0;
+    text-align: left;
+    }
+    #navBar a:hover {
+        color:#f3f3f3;
+        background-color: #912cee;
+        border-radius:10px;
+    }
+   /*************END OF SMALL SCREENS NAVIGATION SECTION*************/
+}
